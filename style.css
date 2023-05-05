@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');  /*cuerpo*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap'); /*titulos*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none;
+
+}
+.navbar-brand{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: red;
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: black;
+}
+.nav-link:hover{
+    color: red;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+.container h1{
+    font-family: 'Dancing Script', cursive;
+}
+.container span{
+    color: red;
+}
+.btn{
+    background-color: red;
+    color: white;
+}
+.accordion-button:hover{
+    background-color: red;
+    color: white;
+    border: white;
+    
+}
+.espacio{
+    width: 50%;
+    height: 200px;
+}
+.espacio img{
+    width: 50%;
+    height: 200px;
+}
+.boo{
+    background-color: red;
+    color: white;
+}
+.boo .btn{
+    background-color: white;
+    color: red;
+}
+.boo .btn:hover{
+    background-color: red;
+    color: white;
+}
+.bii{
+    border: none;
+}
+.card-body img{
+    border: 20px;
+    width: 100%;
+    height: 200px;
+}
+.card-body h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    padding: 5px;
+    color: black;
+}
+.yo{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.yo h1{
+    text-align: center;
+    font-size: 16px;
+    padding: 2px;
+}
+@media screen and (max-width:769px){
+    .espacio{
+        width: 100%;
+        height: 400px;
+    }
+    .esoacio img{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+}
